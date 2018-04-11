@@ -10,5 +10,7 @@ def line(deli)
     end
     binding.pry
     new_arr
+    # this returns ["1. Logan", "2. Avi", "3. Spencer"]
+    new_arr.join(, )
   end
 end
