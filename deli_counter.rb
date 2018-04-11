@@ -6,7 +6,6 @@ def line(deli)
     new_arr = []
     deli.each_with_index.collect do |value, index|
       "#{index + 1}. #{value}"
-    # binding.pry
     #  puts "The line is currently: " + "#{number}. #{customer} #{number}. #{customer}"
     end
     binding.pry
