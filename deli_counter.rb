@@ -5,7 +5,7 @@ def line(deli)
   elsif deli.size > 0
     new_arr = []
     deli.each_with_index.collect do |value, index|
-      binding.pry
+      #binding.pry
       "#{index + 1}. #{value}"
     # binding.pry
     #  puts "The line is currently: " + "#{number}. #{customer} #{number}. #{customer}"
