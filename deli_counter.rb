@@ -8,9 +8,10 @@ def line(deli)
       new_arr << "#{index + 1}. #{value}"
     #  puts "The line is currently: " + "#{number}. #{customer} #{number}. #{customer}"
     end
-    binding.pry
-    new_arr
+    #new_arr
     # this returns ["1. Logan", "2. Avi", "3. Spencer"]
     new_arr.join(" ")
+    binding.pry
+
   end
 end
