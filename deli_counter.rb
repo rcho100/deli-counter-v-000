@@ -11,6 +11,6 @@ def line(deli)
     #new_arr
     # this returns ["1. Logan", "2. Avi", "3. Spencer"]
     string = new_arr.join(" ")
-    "The line is currently: " + string 
+    puts "The line is currently: " + string 
   end
 end
