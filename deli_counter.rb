@@ -12,6 +12,6 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, customer) 
-
+def take_a_number(katz_deli, customer)
+  puts "Welcome, #{customer}. You are number #{katz_deli.size + 1} in line."
 end
