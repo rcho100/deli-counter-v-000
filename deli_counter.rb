@@ -10,6 +10,6 @@ def line(deli)
     # binding.pry
     #  puts "The line is currently: " + "#{number}. #{customer} #{number}. #{customer}"
     end
-
+    new_arr
   end
 end
