@@ -12,6 +12,6 @@ def line(deli)
   end
 end
 
-def take_a_number(1, 2) 
+def take_a_number(deli, customer) 
 
 end
