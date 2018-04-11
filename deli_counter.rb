@@ -11,7 +11,7 @@ def line(deli)
     #new_arr
     # this returns ["1. Logan", "2. Avi", "3. Spencer"]
     "The line is currently: " + new_arr.join(" ")
-    binding.pry
+  #  binding.pry
 
   end
 end
