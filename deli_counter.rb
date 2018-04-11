@@ -4,6 +4,7 @@ def line(deli)
     puts "The line is currently empty."
   elsif deli.size > 0
     deli.each_with_index.collect do |value, index|
+      binding.pry
       puts "#{index + 1}. #{value}" 
     #  number = i + 1
     # binding.pry
